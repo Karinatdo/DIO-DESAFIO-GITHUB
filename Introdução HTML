@@ -5,6 +5,22 @@
         <title>Karina Torres</title>
     </head>
     <body>
-        Karina Torres de Oliveira
+        <header> 
+            <h1> Karina Torres</h1>
+        </header>
+        <section>
+            <header>
+                <h2>Posts</h2>
+            </header>
+            <article>
+                <header>
+                    <h3>Post #1</h3>
+                </header>
+                <p>O <a href="https://code.visualstudio.com/" target="_blank">Visual Studio Code</a> é um editor de código-fonte desenvolvido pela Microsoft para Windows, Linux e macOS. Ele inclui suporte para depuração, controle de versionamento Git incorporado, realce de sintaxe, complementação inteligente de código, snippets e refatoração de código.
+                <a href="mailto:karina.oliveira1@outlook.com">email de contato</a></p>
+            </article>
+        </section>
+        <footer></footer>
     </body>
+
 </html>
