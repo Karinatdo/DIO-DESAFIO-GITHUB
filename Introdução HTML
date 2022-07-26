@@ -3,26 +3,36 @@
     <head>
         <meta charset = "utf-8">
         <title>Karina Torres</title>
+        <link rel="stylesheet" href="style.css">
     </head>
     <body>
         <header> 
             <img src="https://www.wikihow.com/images/thumb/4/4e/Italicize-Text-in-HTML-Step-2.jpg/v4-493px-Italicize-Text-in-HTML-Step-2.jpg" alt="Ilustração de cabeçalho em HTML">
-            <h1> Karina Torres</h1>
+            <h1 id="title"> Karina Torres</h1>
         </header>
         <section>
             <header>
-                <h2>Posts</h2>
+                <h2 class="subtitle">Posts</h2>
             </header>
             <article>
                 <header>
-                    <h3>Post #1</h3>
+                    <h3 class="post_title">Post #1</h3>
                     <img src="https://www.wikihow.com/images/thumb/d/dc/Make-a-Picture-Link-in-HTML-Step-3.jpg/v4-415px-Make-a-Picture-Link-in-HTML-Step-3.jpg" alt="Ilustração inclusão de referencia em html">
                 </header>
                 <p>O <a href="https://code.visualstudio.com/" target="_blank">Visual Studio Code</a> é um editor de código-fonte desenvolvido pela Microsoft para Windows, Linux e macOS. Ele inclui suporte para depuração, controle de versionamento Git incorporado, realce de sintaxe, complementação inteligente de código, snippets e refatoração de código.
                 <a href="mailto:karina.oliveira1@outlook.com">email de contato</a></p>
             </article>
         </section>
-        <footer></footer>
+        <footer>
+            <ul>
+                <li>
+                    <a href="mailto:karina.oliveira1@outlook.com" target="_blank">email</a>
+                </li>
+                <li>
+                    <a href="https://www.linkedin.com/in/karinatorresanalista/" target="_blank">Linkedin</a>
+                </li>
+            </ul>
+        </footer>
     </body>
 
 </html>
